@@ -1,0 +1,7 @@
+server:
+  port: ${hystrixDashboard.port}
+#Eureka Standalone Server
+eureka: 
+  client:
+    service-url:
+      defaultZone: ${eureka.client.service-url.defaultZone}
