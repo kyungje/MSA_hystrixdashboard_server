@@ -9,6 +9,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableEurekaClient
 @SpringBootApplication
 public class MsaArchitectureHystrixdashboardServerApplication {
+
 //	http://localhost:10004/turbine.stream Á¢¼Ó
 	public static void main(String[] args) {
 		SpringApplication.run(MsaArchitectureHystrixdashboardServerApplication.class, args);
