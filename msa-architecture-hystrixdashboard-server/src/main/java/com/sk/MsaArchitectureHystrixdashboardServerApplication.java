@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @SpringBootApplication
 public class MsaArchitectureHystrixdashboardServerApplication {
 
-//	http://localhost:10004/turbine.stream Á¢¼Ó
+//	http://localhost:10004/turbine.stream
 	public static void main(String[] args) {
 		SpringApplication.run(MsaArchitectureHystrixdashboardServerApplication.class, args);
 	}
